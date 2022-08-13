@@ -18,6 +18,7 @@ class Tree {
         return this.root === null;
     }
     size() {
+        console.log(this.size);
         return this.size;
     }
 
