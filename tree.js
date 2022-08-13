@@ -1,4 +1,5 @@
 // trees are made up of nodes and edges (connections between nodes) it is non linear data structure readiing and writing is quicker than linear data structure
+// trees are usefull for representing graphs and trees
 class Node {
     constructor(value) {
         this.value = value;
@@ -12,6 +13,7 @@ class Tree {
     constructor() {
         this.root = null;
     }
+    // return true if tree is empty
     isEmpty() {
         return this.root === null;
     }
