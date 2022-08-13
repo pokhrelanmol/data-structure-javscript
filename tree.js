@@ -13,6 +13,7 @@ class Tree {
     constructor() {
         this.root = null;
     }
+    // return true if tree is empty
     isEmpty() {
         return this.root === null;
     }
